@@ -29,4 +29,4 @@ default-features = false
 features = ["run-for-all", "precommit-hook", "run-cargo-test", "run-cargo-clippy", "run-cargo-fmt"]
 
 [build-dependencies]
-tonic-build = { version = "0.7",  features = ["prost"] }
+tonic-build = { version = "0.8",  features = ["prost"] }
