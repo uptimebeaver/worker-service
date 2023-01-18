@@ -14,7 +14,7 @@ anyhow = "1.0"
 tracing = "0.1"
 tracing-subscriber = { version = "0.3.14", features = ["env-filter"] }
 tonic = "0.7.2"
-tokio = { version = "1.19.2", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.24.2", features = ["macros", "rt-multi-thread"] }
 dotenv = "0.15.0"
 sea-orm = { version = "0.8.0", features = ["sqlx-postgres", "runtime-tokio-native-tls", "macros"] }
 prost = "0.10"
